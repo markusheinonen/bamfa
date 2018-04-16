@@ -1,12 +1,14 @@
-# BAMFA
+# BaMFA
 
-Bayesian metabolic flux analysis MATLAB package by Aalto University. Constructs a Bayesian metabolic model and samples the flux posterior, that is flux vectors that are compatible with steady-state, flux upper and lower bounds and flux measurements. The flux posterior is represented by a set of flux samples, or flux pair samples.
+Bayesian Metabolic Flux Analysis MATLAB package by Aalto University. Constructs a Bayesian metabolic model and samples the flux posterior: all flux vectors that are compatible with steady-state, flux upper and lower bounds and flux measurements. The flux posterior is represented by a set of flux vectors that can be analysed for flux distributions or flux pair distributions. Uses Gibbs sampling to characterise the posterior. 
 
-Drop-in replacement to standard flux balance analysis (FBA), metabolic flux analysis (MFA) and flux variability analysis (FVA).
+Genome-scale models are supported, but sampling time can be several hours.
+
+This is a Bayesian drop-in replacement to standard flux balance analysis (FBA), metabolic flux analysis (MFA) and flux variability analyses (FVA).
 
 Requirements:
 - MATLAB
-- OpenCobra toolbox installed
+- OpenCobra toolbox
 
 ### How to run:
 
