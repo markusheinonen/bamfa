@@ -8,7 +8,7 @@ Requirements:
 - MATLAB
 - OpenCobra toolbox installed
 
-#### How to run:
+### How to run:
 
 Run `demo.m` in MATLAB or run
 
@@ -40,7 +40,7 @@ figure; plotfluxpair2(model, sol, [30 40; 30 41; 40 47; 15 17; 4 5; 1 6; 10 18; 
 ```
 
 
-#### Flux distributions
+### Flux distributions
 
 Below is visualised 9 flux pair distributions in three conditions (red/blue/green). The black dot is the classic FBA solution, while the scatter plots indicate all possible flux states.
 
