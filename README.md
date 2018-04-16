@@ -10,9 +10,7 @@ Requirements:
 
 #### How to run:
 
-```demo.m``` 
-
-or run
+Run `demo.m` in MATLAB or run
 
 ```
 % run FBA on the ecoli core metabolism (77 reactions)
