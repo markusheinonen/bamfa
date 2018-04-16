@@ -70,7 +70,7 @@ function [sol,model] = bmfa(model, y, g, sdx, Nsamples, Nchains, sampler, T, svd
 	end
 	if ~exist('T', 'var')
 		if strcmp(sampler,'gibbs')
-			T = 50;
+			T = 100;
 		else
 			T = pi/2;
 		end

@@ -31,14 +31,14 @@ function [sol,model] = bfba(model, fba, sdx, Nsamples, Nchains, sampler, T, svdt
 		Nsamples = 200;
 	end
 	if ~exist('Nchains', 'var')
-		Nchains = 50;
+		Nchains = 10;
 	end
 	if ~exist('sampler', 'var')  % set to gibbs for over 200 reactions
 		sampler = 'gibbs';
 	end
 	if ~exist('T', 'var')
 		if strcmp(sampler,'gibbs')
-			T = 50;
+			T = 100;
 		else
 			T = pi/2;
 		end

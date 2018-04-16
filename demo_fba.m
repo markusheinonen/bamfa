@@ -1,8 +1,7 @@
 
 
 % 
-% run MFA on the ecoli core metabolism (77 reactions) with growth and
-% glucose intake specified
+% run FBA on the ecoli core metabolism (77 reactions)
 % 
 % reveals the distributions of all unknown fluxes
 %
@@ -30,7 +29,7 @@ Nskip = 100;   % Nskip = 1000 for better sample mixing
 sdx = 0.01;
 
 % sample, takes 30 seconds
-sol = bfba(model, fba, sdx, Nsamples, Nchains, sampler, Nskip);
+sol = bfba(model, fba);
 
 %% visualise
 
