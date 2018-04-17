@@ -6,6 +6,17 @@ Genome-scale models are supported, but sampling time can be several hours.
 
 This is a Bayesian drop-in replacement to standard flux balance analysis (FBA), metabolic flux analysis (MFA) and flux variability analyses (FVA).
 
+### Flux distributions
+
+Below is visualised nine example flux pair distributions in three conditions (red/blue/green). The black dot is the classic FBA solution, while the scatter plots indicate all possible flux states (from functions `bfma` and `plotfluxpair2`, See `demo.m`).
+
+<p align="center">
+  <img src="figures/core_9.png" width="650"/>
+</p>
+
+
+### Package
+
 Requirements:
 - MATLAB
 - OpenCobra toolbox
@@ -52,11 +63,3 @@ figure; plotfluxpair(model, sol, [10 2 40 42 45 53 55], fba);
 figure; plotfluxpair2(model, sol, [30 40; 30 41; 40 47; 15 17; 4 5; 1 6; 10 18; 42 45], fba);
 ```
 
-
-### Flux distributions
-
-Below is visualised 9 flux pair distributions in three conditions (red/blue/green). The black dot is the classic FBA solution, while the scatter plots indicate all possible flux states.
-
-<p align="center">
-  <img src="figures/core_9.png" width="650"/>
-</p>
