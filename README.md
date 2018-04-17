@@ -1,4 +1,4 @@
-# BaMFA
+# BaMFA: Bayesian Metabolic Flux Analysis
 
 Bayesian Metabolic Flux Analysis MATLAB package by Aalto University. Constructs a Bayesian metabolic model and samples the flux posterior: all flux vectors that are compatible with steady-state, flux upper and lower bounds and flux measurements. The flux posterior is represented by a set of flux vectors that can be analysed for flux distributions or flux pair distributions. Uses Gibbs sampling to characterise the posterior. 
 
