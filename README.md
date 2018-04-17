@@ -19,7 +19,7 @@ Below is visualised nine example flux pair distributions in three conditions (re
 
 Requirements:
 - MATLAB
-- OpenCobra toolbox
+- <a href="https://opencobra.github.io/cobratoolbox/stable/">OpenCobra MATLAB toolbox</a>
 
 Main functions:
 - `sol = bfba(model,fba)`
