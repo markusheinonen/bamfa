@@ -11,10 +11,14 @@ Requirements:
 - OpenCobra toolbox
 
 Main functions:
-- `sol = bfba(model,fba)`: runs **Bayesian FBA** and returns set of optimal growth flux vectors
-- `sol = bmfa(model,meas,errs)`: runs **Bayesian MFA** and returns sets of flux vectors compatible with measurements `meas` with errors `errs`
-- `plotfluxes(model,sol,fluxinds)`: plots univariate flux distributions of fluxes `fluxinds`
-- `plotfluxpair2(model,sol,indpairs)`: plots bivariate flux pair distributions (see also `plotfluxpair`)
+- `sol = bfba(model,fba)`
+  - runs **Bayesian FBA** and returns set of optimal growth flux vectors
+- `sol = bmfa(model,meas,errs)`
+  - runs **Bayesian MFA** and returns sets of flux vectors compatible with measurements `meas` with errors `errs`
+- `plotfluxes(model,sol,fluxinds)`
+  - plots univariate flux distributions of fluxes `fluxinds`
+- `plotfluxpair2(model,sol,indpairs)`
+  - plots bivariate flux pair distributions (see also `plotfluxpair`)
 
 
 ### How to run:
