@@ -34,7 +34,7 @@ Main functions:
   - plots bivariate flux pair distributions (see also `plotfluxpair`)
 
 
-### How to run:
+### Tutorial
 
 Run `demo.m` in MATLAB or run
 
