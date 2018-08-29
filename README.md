@@ -2,6 +2,8 @@
 
 Bayesian Metabolic Flux Analysis MATLAB package by <a href="https://users.aalto.fi/~heinom10/">Markus Heinonen</a>, Maria Osmala, Henrik Mannerström, Juho Rousu, Samuel Kaski and Harri Lähdesmäki from the <a href="http://research.cs.aalto.fi/csb/">CSB research group</a> of <a href="http://www.aalto.fi/en/">Aalto University</a>.
 
+The corresponding paper: <a href="https://arxiv.org/abs/1804.06673">Bayesian Metabolic Flux Analysis reveals intracellular flux couplings</a> (arXiv)
+
 Constructs a Bayesian metabolic model and samples the flux posterior: all flux vectors that are compatible with steady-state, flux upper and lower bounds and flux measurements. The flux posterior is represented by a set of flux vectors that can be analysed for flux distributions or flux pair distributions. Uses Gibbs sampling to characterise the posterior. 
 
 Genome-scale models are supported, but sampling time can be several hours.
